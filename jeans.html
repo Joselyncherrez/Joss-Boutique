@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Joss' Boutique</title>
+        <link href="assets/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body>
+      <div class="card">
+        <div class="card mb-3" style="max-width: 600px;">
+      <table class="table">
+        <thead>
+          <tr> 
+            <th scope="col" class="text-center"></th>
+            <th scope="col" class="text-center">Código</th>
+            <th scope="col" class="text-center">Nombre</th>
+            <th scope="col" class="text-center">Precio</th>   
+            <th scope="col" class="text-center">Agregar</th>  
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> <img src="assets\img\jeans_1.jpg" class="img-fluid rounded-start" alt="jean1" width="150" height="50" style="position: center;"></td>                
+                <td>JN0001</td>
+                <td>Sin bolsillos diseño tubo</td>
+                <td>US $9.50</td>
+                <td> <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Sin bolsillos diseño tubo','$9.50')"><img src="assets\img\agregar.png" width="35" height="35"/></button> </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\jeans-2.png" class="img-fluid rounded-start" alt="jean2" width="150" height="50" style="position: center;"></td>                
+              <td>JN0002</td>
+              <td>Tiro alto con Bies</td>
+              <td>US $12.50</td>
+              <td> 
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Tiro alto con Bies','$12.50')"><img src="assets\img\agregar.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\jeans_3.jpg" class="img-fluid rounded-start" alt="jean3" width="150" height="50" style="position: center;"></td>                
+              <td>JN0003</td>
+              <td>Vaqueros de pierna recta con diseño roto</td>
+              <td>US $16.00</td>
+              <td>
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Vaqueros de pierna recta con diseño roto','$16.00')"><img src="assets\img\agregar.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\jeans_4.jpg" class="img-fluid rounded-start" alt="jean4" width="150" height="50" style="position: center;"></td>                
+              <td> JN0004</td>
+              <td>Jogger</td>
+              <td>US $12.00</td>
+              <td>
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Jogger','$12.00')"><img src="assets\img\agregar.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\jeans_5.jpg" class="img-fluid rounded-start" alt="jean5" width="150" height="50" style="position: center;"></td>                
+              <td>JN0005</td>
+              <td>Azul rasgado</td>
+              <td>US $10.00</td>
+              <td>
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Azul rasgado','$10.00')"><img src="assets\img\agregar.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+</div>   
+        
+    </body>
+
+    <script src="assets/js/script.js"></script>
+</html>

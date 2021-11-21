@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Joss' Boutique</title>
+        <link href="assets/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body>
+      <div class="card">
+        <div class="card mb-3" style="max-width: 600px;">
+      <table class="table">
+        <thead>
+          <tr> 
+            <th scope="col" class="text-center"></th>
+            <th scope="col" class="text-center">Código</th>
+            <th scope="col" class="text-center">Nombre</th>
+            <th scope="col" class="text-center">Precio</th>   
+            <th scope="col" class="text-center">Agregar</th>  
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> <img src="assets\img\blusa-1.png" class="img-fluid rounded-start" alt="arete1" width="150" height="50" style="position: center;"></td>                
+                <td>BL0001</td>
+                <td>Con estampado de flores sin mangas</td>
+                <td>US $12.50</td>
+                <td> <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Con estampado de flores sin mangas','$12.50')"><img src="assets\img\agregar.png" width="35" height="35"/></button> </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\blusa-2.png" class="img-fluid rounded-start" alt="arete2" width="150" height="50" style="position: center;"></td>                
+              <td>BL0002</td>
+              <td>Blanca sin mangas con dobladillo sumergido</td>
+              <td>US $10.50</td>
+              <td> 
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Blanca sin mangas con dobladillo sumergido','$10.50')"><img src="assets\img\agregar.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\blusa-3.png" class="img-fluid rounded-start" alt="arete1" width="150" height="50" style="position: center;"></td>                
+              <td>BL0003</td>
+              <td>Corta negra con nudos</td>
+              <td>US $9.50</td>
+              <td>
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Corta negra con nudos','$9.50')"><img src="assets\img\agregar.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\blusa-4.png" class="img-fluid rounded-start" alt="arete1" width="150" height="50" style="position: center;"></td>                
+              <td>BL0004</td>
+              <td>Top Corto De Manga Larga Y Hombros Descubiertos</td>
+              <td>US $13.00</td>
+              <td>
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Top Corto De Manga Larga Y Hombros Descubiertos','$13.00')"><img src="assets\img\agregar.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\blusa-5.png" class="img-fluid rounded-start" alt="arete1" width="150" height="50" style="position: center;"></td>                
+              <td>BL0005</td>
+              <td>Rayas De Manga Larga Y Efecto Nudo</td>
+              <td>US $12.00</td>
+              <td>
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Rayas De Manga Larga Y Efecto Nudo','$12.00')"><img src="assets\img\agregar.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+</div>   
+        
+    </body>
+
+    <script src="assets/js/script.js"></script>
+</html>

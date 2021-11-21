@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Joss' Boutique</title>
+    <meta name="viewport" content="widht=device=width, initial=scale=1.0">
+    <meta name="title" content="Joss' Boutique">
+    <link rel="stylesheet" href="assets\css\bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="assets\css\estilos.css">
+    <link rel="icon" href="assets\img\Logopestaña.jpg">
+</head>
+<body>
+    <header>
+         <img src="assets\img\Logo-Boutique.jpg" > 
+    </header>  
+    <p></p>
+    <div class="container">
+            <div class="card-group">
+                <div class="card">
+                    <select  id="cat" onchange="itemSeleccionado();" class="form-select" aria-label="Default select example">  
+                        <option selected >Seleccione una categoría: </option>
+                        <option value="Jeans">Jeans</option>
+                        <option value="Blusas">Blusas</option>
+                        <option value="Calzado">Calzado</option>
+                    </select>
+                    <div id="add"> </div>
+                </div>
+
+                <div class="card">
+                    <table class="table">
+                        <thead>
+                            <tr> 
+                                
+                                <th scope="col" class="text-center">Nombre </th>
+                                <th scope="col" class="text-center">Precio $</th>   
+                            </tr>
+                        </thead>
+                    </table>
+                    <div class = "addT"></div>
+                        
+                </div>
+            </div>  
+        <div class = "card-group"> </div>
+</div>
+<script src="assets/js/script.js"></script>
+</body>
+</html>

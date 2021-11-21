@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Joss' Boutique</title>
+        <link href="assets/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body>
+      <div class="card">
+        <div class="card mb-3" style="max-width: 600px;">
+      <table class="table">
+        <thead>
+          <tr> 
+            <th scope="col" class="text-center"></th>
+            <th scope="col" class="text-center">Código</th>
+            <th scope="col" class="text-center">Nombre</th>
+            <th scope="col" class="text-center">Precio</th>   
+            <th scope="col" class="text-center">Agregar</th>  
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> <img src="assets\img\calzado-1.png" class="img-fluid rounded-start" alt="arete1" width="150" height="50" style="position: center;"></td>                
+                <td>CA0001</td>
+                <td>Sandalias Con Tacón Cuadrado</td>
+                <td>US $15.50</td>
+                <td> <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Sandalias Con Tacón Cuadrado','$15.50')"><img src="assets\img\agregar.png" width="35" height="35"/></button> </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\calzado-2.png" class="img-fluid rounded-start" alt="arete2" width="150" height="50" style="position: center;"></td>                
+              <td>CA0002</td>
+              <td>TOMS Lunata</td>
+              <td>US $12.50</td>
+              <td> 
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('TOMS Lunata','$12.50')"><img src="assets\img\agregar.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\calzado-3.png" class="img-fluid rounded-start" alt="arete1" width="150" height="50" style="position: center;"></td>                
+              <td>CA0003</td>
+              <td>Botas de invierno con lana natural </td>
+              <td>US $15.50</td>
+              <td>
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Botas de invierno con lana natural','$15.50')"><img src="assets\img\agregar.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\calzado-4.png" class="img-fluid rounded-start" alt="arete1" width="150" height="50" style="position: center;"></td>                
+              <td> CA0004</td>
+              <td>Zapatos vulcanizados transpirables para mujer con plataforma</td>
+              <td>US $8.00</td>
+              <td>
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Zapatos vulcanizados transpirables para mujer, zapatillas de cuero Pu con plataforma, informales, con cordones, color blanco','$8.00')"><img src="assets\img\agregar.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+            <tr>
+              <td> <img src="assets\img\calzado-5.png" class="img-fluid rounded-start" alt="arete1" width="150" height="50" style="position: center;"></td>                
+              <td> CA0005</td>
+              <td>Pulsera Hilo Rojo CHAKRAS</td>
+              <td>$10.00</td>
+              <td>
+                  <button type="button" class="btn btn-default btn-circle btn-xl" onclick="agregar('Pulsera Hilo Rojo CHAKRAS','$10.00')"><img src="assets\img\agregar.png" width="35" height="35"/></button>
+              </td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+</div>   
+        
+    </body>
+
+    <script src="assets/js/script.js"></script>
+</html>
